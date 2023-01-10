@@ -18,7 +18,7 @@ module.exports = {
       },
       boxShadow: {
         '1x' : 'inset 0px 15px 0px -14px rgb(12 10 10 / 20%)',
-        '0.5x' : '0 .5rem 1rem rgba(0,0,0,.20)!important',
+        '0.5x' : '0 .5rem 1rem rgba(0,0,0,.30)!important',
       },
       spacing: {
         'sidebar': '83vh',

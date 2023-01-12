@@ -44,53 +44,61 @@ export function Clientes() {
         {field: 'id', 
             headerName: 'Código',
             filter: true, 
-            width: 207, 
+            width: 210, 
             headerAlign: 'center',
             align: 'center', 
-            headerClassName: 'super-app-theme--header'
+            headerClassName: 'super-app-theme--header',
+            cellClassName: 'super-app-theme--cell'
         },
         {field: 'name', 
             headerName: 'Nome',
             filter: true, 
-            width: 207, 
+            width: 210, 
             headerAlign: 'center',
             align: 'center', 
-            headerClassName: 'super-app-theme--header'
+            headerClassName: 'super-app-theme--header',
+            cellClassName: 'super-app-theme--cell'
         },
         {field: 'cnpj', 
             headerName: 'Cnpj',
             filter: true, 
-            width: 207, 
+            width: 210, 
             headerAlign: 'center',
             align: 'center',
-            headerClassName: 'super-app-theme--header'
+            headerClassName: 'super-app-theme--header',
+            cellClassName: 'super-app-theme--cell'
         },
         {field: 'phone',
             headerName: 'Telefone',
             filter: true,
-            width: 207,
+            width: 211,
             headerAlign: 'center',
             align: 'center',
-            headerClassName: 'super-app-theme--header'
+            headerClassName: 'super-app-theme--header',
+            cellClassName: 'super-app-theme--cell'
         },
         {field: 'price', 
             headerName: 'Preço',
             filter: true, 
-            width: 207, 
+            width: 211, 
             headerAlign: 'center',
             align: 'center', 
-            headerClassName: 'super-app-theme--header'
+            headerClassName: 'super-app-theme--header',
+            cellClassName: 'super-app-theme--cell'
         },
       ]);
 
     return (
         <div className='p-5 w-full'>
-            <Title />
+            <Title nome="Clientes"/>
             <div className='p-4 w-full h-[79%]'>
             <Box 
                 sx={{ 
                         '& .super-app-theme--header': {backgroundColor: '#5fa1fe', 
                             color: '#fff', 
+                            fontSize: '18px'
+                        }, 
+                        '& .super-app-theme--cell': {
                             fontSize: '16px'
                         }, 
                         height: '100%',     

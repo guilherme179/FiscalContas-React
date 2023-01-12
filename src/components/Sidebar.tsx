@@ -11,7 +11,7 @@ return(
                     <ul className="pt-2 pb-4 space-y-1 text-base">
                         <li className="rounded-sm">
                             <a
-                                href="#"
+                                href="/"
                                 className="flex items-center p-2 space-x-3 rounded-md"
                                 >
                                 <FontAwesomeIcon icon={faHouse}/>
@@ -20,7 +20,7 @@ return(
                         </li>
                         <li className="rounded-sm">
                             <a
-                                href="#"
+                                href="/fornecedores"
                                 className="flex items-center p-2 space-x-3 rounded-md"
                                 >
                                 <FontAwesomeIcon icon={faTruck}/>
@@ -29,7 +29,7 @@ return(
                         </li>
                         <li className="rounded-sm">
                             <a
-                                href="#"
+                                href="/clientes"
                                 className="flex items-center p-2 space-x-3 rounded-md"
                                 >
                                 <FontAwesomeIcon icon={faPerson}/>
@@ -38,7 +38,7 @@ return(
                         </li>
                         <li className="rounded-sm">
                             <a
-                                href="#"
+                                href="/"
                                 className="flex items-center p-2 space-x-3 rounded-md"
                                 >
                                 <FontAwesomeIcon icon={faBoxesStacked}/>
@@ -47,7 +47,7 @@ return(
                         </li>
                         <li className="rounded-sm">
                             <a
-                                href="#"
+                                href="/"
                                 className="flex items-center p-2 space-x-3 rounded-md"
                                 >
                                 <FontAwesomeIcon icon={faDolly}/>
@@ -56,7 +56,7 @@ return(
                         </li>
                         <li className="rounded-sm">
                             <a
-                                href="#"
+                                href="/"
                                 className="flex items-center p-2 space-x-3 rounded-md"
                                 >
                                 <FontAwesomeIcon icon={faTruckRampBox}/>
@@ -65,7 +65,7 @@ return(
                         </li>
                         <li className="rounded-sm">
                             <a
-                                href="#"
+                                href="/"
                                 className="flex items-center p-2 space-x-3 rounded-md"
                                 >
                                 <FontAwesomeIcon icon={faFileInvoiceDollar}/>
@@ -74,7 +74,7 @@ return(
                         </li>
                         <li className="text-gray-200 rounded-sm">
                             <a
-                                href="#"
+                                href="/"
                                 className="flex items-center p-2 space-x-3 rounded-md"
                                 >
                                 <FontAwesomeIcon icon={faReceipt}/>
@@ -83,7 +83,7 @@ return(
                         </li>
                         <li className="text-gray-500 rounded-sm">
                             <a
-                                href="#"
+                                href="/"
                                 className="flex items-center p-2 space-x-3 rounded-md"
                                 >
                                 <FontAwesomeIcon icon={faBuildingColumns}/>
@@ -92,7 +92,7 @@ return(
                         </li>
                         <li className="text-gray-500 rounded-sm">
                             <a
-                                href="#"
+                                href="/"
                                 className="flex items-center p-2 space-x-3 rounded-md"
                                 >
                                 <FontAwesomeIcon icon={faMoneyBill1Wave}/>
@@ -101,7 +101,7 @@ return(
                         </li>
                         <li className="text-gray-600 rounded-sm">
                             <a
-                                href="#"
+                                href="/"
                                 className="flex items-center p-2 space-x-3 rounded-md"
                                 >
                                 <FontAwesomeIcon icon={faHandHoldingDollar}/>

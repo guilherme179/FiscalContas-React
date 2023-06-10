@@ -20,92 +20,11 @@ return(
                         </li>
                         <li className="rounded-sm">
                             <a
-                                href="/fornecedores"
-                                className="flex items-center p-2 space-x-3 rounded-md"
-                                >
-                                <FontAwesomeIcon icon={faTruck}/>
-                                <span>Fornecedores</span>
-                            </a>
-                        </li>
-                        <li className="rounded-sm">
-                            <a
                                 href="/clientes"
                                 className="flex items-center p-2 space-x-3 rounded-md"
                                 >
                                 <FontAwesomeIcon icon={faPerson}/>
                                 <span>Clientes</span>
-                            </a>
-                        </li>
-                        <li className="rounded-sm">
-                            <a
-                                href="/"
-                                className="flex items-center p-2 space-x-3 rounded-md"
-                                >
-                                <FontAwesomeIcon icon={faBoxesStacked}/>
-                                <span>Estoque</span>
-                            </a>
-                        </li>
-                        <li className="rounded-sm">
-                            <a
-                                href="/"
-                                className="flex items-center p-2 space-x-3 rounded-md"
-                                >
-                                <FontAwesomeIcon icon={faDolly}/>
-                                <span>Entrada</span>
-                            </a>
-                        </li>
-                        <li className="rounded-sm">
-                            <a
-                                href="/"
-                                className="flex items-center p-2 space-x-3 rounded-md"
-                                >
-                                <FontAwesomeIcon icon={faTruckRampBox}/>
-                                <span>Saída</span>
-                            </a>
-                        </li>
-                        <li className="rounded-sm">
-                            <a
-                                href="/"
-                                className="flex items-center p-2 space-x-3 rounded-md"
-                                >
-                                <FontAwesomeIcon icon={faFileInvoiceDollar}/>
-                                <span>Boletos à pagar</span>
-                            </a>
-                        </li>
-                        <li className="text-gray-200 rounded-sm">
-                            <a
-                                href="/"
-                                className="flex items-center p-2 space-x-3 rounded-md"
-                                >
-                                <FontAwesomeIcon icon={faReceipt}/>
-                                <span>Boletos à receber</span>
-                            </a>
-                        </li>
-                        <li className="text-gray-500 rounded-sm">
-                            <a
-                                href="/"
-                                className="flex items-center p-2 space-x-3 rounded-md"
-                                >
-                                <FontAwesomeIcon icon={faBuildingColumns}/>
-                                <span>Extrato bancário</span>
-                            </a>
-                        </li>
-                        <li className="text-gray-500 rounded-sm">
-                            <a
-                                href="/"
-                                className="flex items-center p-2 space-x-3 rounded-md"
-                                >
-                                <FontAwesomeIcon icon={faMoneyBill1Wave}/>
-                                <span>Extrato dinheiro</span>
-                            </a>
-                        </li>
-                        <li className="text-gray-600 rounded-sm">
-                            <a
-                                href="/"
-                                className="flex items-center p-2 space-x-3 rounded-md"
-                                >
-                                <FontAwesomeIcon icon={faHandHoldingDollar}/>
-                                <span>Despesas</span>
                             </a>
                         </li>
                     </ul>
